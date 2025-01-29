@@ -34,3 +34,24 @@ h1 {
 a.active {
     text-decoration: underline;
 }
+.card{
+    width: 40%;
+    display: inline-block;
+    padding: 20px;
+}
+
+.card img {
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Jobbra és alul árnyék
+    5px 5px: Az árnyék eltolása (x és y irányban).
+    10px: Az árnyék elmosása (homályosság).
+    rgba(0, 0, 0, 0.3): Az árnyék színe (fekete, 30% átlátszóság). */
+}
+
+
+
+.card h2 {
+    display: inline-block;
+}
